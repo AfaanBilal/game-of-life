@@ -1,3 +1,13 @@
+/**
+ * Conway's Game of Life
+ * 
+ * Simulation by Afaan Bilal
+ * https://afaan.ml/game-of-life
+ * 
+ * 
+ * (c) Afaan Bilal
+ */
+
 app = new Vue({
     el: '#app',
     data: {
