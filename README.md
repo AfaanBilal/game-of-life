@@ -1,9 +1,9 @@
 Game of Life
 ==============
 
-Author: **[Afaan Bilal](https://afaan.me)**  
+Author: **[Afaan Bilal](https://afaan.dev)**  
 
-##### Try it: [Game of Life](https://afaan.me/game-of-life)
+##### Try it: [Game of Life](https://afaan.dev/game-of-life)
 
 ## Introduction
 **Game of Life** is a simulator of John Conway's Game of Life automaton written in JS.
