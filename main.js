@@ -2,7 +2,7 @@
  * Conway's Game of Life
  * 
  * Simulation by Afaan Bilal
- * https://afaan.ml/game-of-life
+ * https://afaan.dev/game-of-life
  * 
  * 
  * (c) Afaan Bilal
