@@ -60,72 +60,72 @@ app = new Vue({
                 lastCornerJ = this.width - 1
                 switch (corner) {
                     case 1:
-                    nIndices = [
-                        [0, 1],
-                        [1, 0],
-                        [1, 1]
-                    ]
-                    break
+                        nIndices = [
+                            [0, 1],
+                            [1, 0],
+                            [1, 1]
+                        ]
+                        break
                     case 2:
-                    nIndices = [
-                        [0, lastCornerJ - 1],
-                        [1, lastCornerJ - 1],
-                        [1, lastCornerJ]
-                    ]
-                    break
+                        nIndices = [
+                            [0, lastCornerJ - 1],
+                            [1, lastCornerJ - 1],
+                            [1, lastCornerJ]
+                        ]
+                        break
                     case 3:
-                    nIndices = [
-                        [lastCornerI - 1, lastCornerJ - 1],
-                        [lastCornerI - 1, lastCornerJ],
-                        [lastCornerI, lastCornerJ - 1]
-                    ]
-                    break
+                        nIndices = [
+                            [lastCornerI - 1, lastCornerJ - 1],
+                            [lastCornerI - 1, lastCornerJ],
+                            [lastCornerI, lastCornerJ - 1]
+                        ]
+                        break
                     case 4:
-                    nIndices = [
-                        [lastCornerI - 1, lastCornerJ - 1],
-                        [lastCornerI - 1, lastCornerJ],
-                        [lastCornerI, lastCornerJ - 1]
-                    ]
-                    break
+                        nIndices = [
+                            [lastCornerI - 1, lastCornerJ - 1],
+                            [lastCornerI - 1, lastCornerJ],
+                            [lastCornerI, lastCornerJ - 1]
+                        ]
+                        break
                 }
             } else if (edge) {
                 switch (edge) {
                     case 1:
-                    nIndices = [
-                        [0, j - 1],
-                        [0, j + 1],
-                        [1, j - 1],
-                        [1, j],
-                        [1, j + 1],
-                    ]
-                    break
+                        nIndices = [
+                            [0, j - 1],
+                            [0, j + 1],
+                            [1, j - 1],
+                            [1, j],
+                            [1, j + 1],
+                        ]
+                        break
                     case 2:
-                    nIndices = [
-                        [i - 1, j - 1],
-                        [i,     j - 1],
-                        [i + 1, j - 1],
-                        [i - 1, j],
-                        [i + 1, j],
-                    ]
-                    break
+                        nIndices = [
+                            [i - 1, j - 1],
+                            [i,     j - 1],
+                            [i + 1, j - 1],
+                            [i - 1, j],
+                            [i + 1, j],
+                        ]
+                        break
                     case 3:
-                    nIndices = [
-                        [i - 1, j - 1],
-                        [i - 1, j    ],
-                        [i - 1, j + 1],
-                        [i,     j - 1],
-                        [i,     j + 1],
-                    ]
-                    break
+                        nIndices = [
+                            [i - 1, j - 1],
+                            [i - 1, j    ],
+                            [i - 1, j + 1],
+                            [i,     j - 1],
+                            [i,     j + 1],
+                        ]
+                        break
                     case 4:
-                    nIndices = [
-                        [i - 1, j],
-                        [i + 1, j],
-                        [i - 1, j + 1],
-                        [i,     j + 1],
-                        [i + 1, j + 1],
-                    ]
-                    break
+                        nIndices = [
+                            [i - 1, j],
+                            [i + 1, j],
+                            [i - 1, j + 1],
+                            [i,     j + 1],
+                            [i + 1, j + 1],
+                        ]
+                        break
                 }
             } else {
                 nIndices = [ 
