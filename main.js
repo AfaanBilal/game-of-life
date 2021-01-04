@@ -8,7 +8,7 @@
  * (c) Afaan Bilal
  */
 
-app = new Vue({
+new Vue({
     el: '#app',
     data: {
         height: 30,
