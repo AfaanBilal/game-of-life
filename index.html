@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<!-- 
+<!--
 /**
  * Conway's Game of Life
- * 
+ *
  * Simulation by Afaan Bilal
  * https://afaan.dev/game-of-life
- * 
- * 
+ *
+ *
  * (c) Afaan Bilal
  */
  -->
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>John Conway's Game of Life</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <style>.alive { background-color: green; }</style>
     </head>
     <body>
         <div id="app" class="container py-4 bg-light mt-2">
-            
+
             <h2 class="text-center w-100">John Conway's Game of Life</h2>
             <div class="text-center fs-5 mb-4">
                 by <a href="https://afaan.dev" class="text-success" target="_blank">Afaan Bilal</a>
@@ -56,10 +57,10 @@
 
             <div class="container text-center py-2 my-2">
                 <div v-for="i in height" style="height: 18px">
-                    <div 
-                        v-for="(v, j) in state[i]" 
-                        style="margin-left: 2px; display: inline-block; border: 1px solid #999; width: 15px; height: 15px;" 
-                        :class="[{'alive': v}, 'my-0 p-0']" 
+                    <div
+                        v-for="(v, j) in state[i]"
+                        style="margin-left: 2px; display: inline-block; border: 1px solid #999; width: 15px; height: 15px;"
+                        :class="[{'alive': v}, 'my-0 p-0']"
                         @click="toggle(i, j)">
                     </div>
                 </div>
